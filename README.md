@@ -6,6 +6,8 @@
 
 A chess engine in 4 KB of Python: 0x88 board, alpha-beta search with a transposition table, killer moves, quiescence over captures and check evasions, and tapered middlegame/endgame piece-square evaluation. It plays the house gauntlet through the make.fun env, to a fixed node budget per move — never a clock.
 
+`main.py` is the kit-compressed entrypoint (`makefun compress` of the readable `engine.py`, 3,025 bytes); practice trial-0 on the packed entry: 5 won, 0 drawn, 1 lost — practice Elo 1654.
+
 ## Run it
 
 ```sh
